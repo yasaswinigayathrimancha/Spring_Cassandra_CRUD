@@ -8,7 +8,7 @@ class RandomNumberGenerator implements Runnable {
 	private Random random;
 
 	public RandomNumberGenerator() {
-		arrayOfNumbers = new int[6];
+		arrayOfNumbers = new int[10];
 		random = new Random();
 	}
 
@@ -25,7 +25,7 @@ class RandomNumberGenerator implements Runnable {
 		}
 	}
 
-	public int[] getNumbers() {
+	public int[] generatedNumbers() {
 		return arrayOfNumbers;
 	}
 

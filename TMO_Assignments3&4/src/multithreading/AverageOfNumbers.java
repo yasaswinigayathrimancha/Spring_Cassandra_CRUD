@@ -18,7 +18,7 @@ class AverageOfNumbers implements Runnable {
 			e.printStackTrace();
 		}
 
-		int[] numbers = randomNumberGenerator.getNumbers();
+		int[] numbers = randomNumberGenerator.generatedNumbers();
 		int sum = 0;
 		for (int number : numbers) {
 			sum = sum + number;
